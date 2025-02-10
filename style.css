@@ -1,0 +1,193 @@
+@import url('https://fonts.googleapis.com/css2?family=Satisfy&display=swap');
+
+@font-face{
+    font-family: Artisan-Paris;
+    src: url(/fonts/ArtisanParis-Regular.otf);
+}
+
+@font-face{
+    font-family: Lemon-Milk;
+    src: url(/fonts/LEMONMILK-Regular.otf);
+}
+
+@font-face{
+    font-family: feldberg;
+    src: url(/fonts/Feldberg.ttf);
+}
+
+@font-face {
+    font-family: virust;
+    src: url(/fonts/VIRUST.ttf);
+}
+
+.satisfy-regular {
+    font-family: "Satisfy", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+
+
+header {
+    padding: 5%;
+    background-color: #FFF0D1;
+    background-size: cover;
+    
+
+}
+
+header h1 {
+    text-align: center;
+    font-family: feldberg;
+    font-size: 125px;
+    color: #493628;
+}
+
+
+header a {
+    text-decoration: none;
+    border: #5D534A solid 1px;
+    border-radius: 10px;
+    padding: 30px;
+
+}
+
+.menu-btn {
+    margin: auto;
+    width: 7%;
+    font-family: Lemon-Milk;
+}
+
+.menu-btn a {
+    color: #493628;
+}
+
+.menu-btn a:hover {
+    color: #B5EAEA;
+    background-color: #493628;
+}
+
+.navbar {
+    position: sticky;
+    top: 0;
+}
+
+
+
+
+body{
+    margin: 0px;
+    padding: 0px;
+}
+
+main{
+    margin: 0;
+    background-color: #B5EAEA;
+
+}
+
+nav{
+    background: #493628;
+    padding: 0.5rem;
+    
+
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-around;
+}
+
+nav ul li {
+    display: inline;
+}
+
+nav ul h1 {
+    color: #FFF4EA;
+    font-family: feldberg;
+    font-size: 23px;
+}
+
+nav ul li a {
+    color: #FFF4EA;
+    font-family: virust;
+    font-size: 20px;
+    text-decoration: none;
+    padding: 20px;
+    display: block;
+    font-size: 30px;   
+
+}
+
+nav ul li a:hover {
+    background-color: #D4F6FF;   
+    color: #493628;
+    border-radius: 25px;
+    transition: 0.3s;
+
+}
+
+
+
+
+#menu {
+    text-align: center;
+    font-size: 70px;
+    font-family: Artisan-Paris;
+    font-weight: 150px;
+    color: #493628;
+    margin: 0px;
+    padding: 5rem;
+}
+
+.cards{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 100px;
+    font-family: Lemon-Milk;
+}
+
+.card {
+    width: 350px;
+    background-color: #FEFAE0;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.4);
+    margin: 35px;
+
+
+}
+
+.card:hover {
+    transform: scale(1.03);
+    transition: 0.2s ease-in-out  ;
+
+}
+
+.card img{
+    width: 100%;
+    height: auto;
+}
+
+.card-content {
+    padding: 16px;
+
+}
+
+.card-content h1 {
+    font-size: 28px;
+    margin-bottom: 8px;
+}
+
+
+footer {
+    color: #705C53;
+    font-size: 30px;
+    padding: 1rem;
+    background-color: #AB886D;
+    text-align: center;
+}
